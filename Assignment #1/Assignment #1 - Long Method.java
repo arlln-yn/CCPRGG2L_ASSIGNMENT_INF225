@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.Scanner;
 
-public class Assignment_1LongMethod {
+public class Assignment_1 {
 
 	public static void main(String[] args) {
 
