@@ -40,7 +40,7 @@ public class Assignment_1LongMethod {
 	        if (match1) 
 			{
 	        	System.out.println("valid student phone number");
-	       	} 
+	       		} 
 			else 
 			{
 				System.out.println("invalid student phone number");
