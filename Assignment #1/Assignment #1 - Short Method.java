@@ -7,14 +7,13 @@ import java.util.Scanner;
 public class Assignment_1 {
 	
 	public static void main(String[] args) {
-	
+		
+// Short Method 
+        // Student Email
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter student email: ");
         String studentEmail = scan.nextLine();
 
-// Short Method 
-        
-        // Student Email
         boolean match = Pattern.compile("\\w+@students.national-u.edu.ph").matcher(studentEmail).matches();
 
         	if (match) 
