@@ -29,7 +29,7 @@ public class Assignment_1 {
         System.out.print("Enter student phone number: ");
         String studentPhoneNum = scan.nextLine();
         
-        boolean match1 = Pattern.compile("09\\d{9}").matcher(studentPhoneNum).matches();
+        boolean match1 = Pattern.compile("\\+639\\d{9}").matcher(studentPhoneNum).matches();
 
         	if (match1) 
         	{
