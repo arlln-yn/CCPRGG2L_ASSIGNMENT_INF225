@@ -45,7 +45,6 @@ public class Assignment_1 {
 		else 
 		{
         	       System.out.println("invalid student phone number");
-        	}
-             
+        	} 
       }
  }
