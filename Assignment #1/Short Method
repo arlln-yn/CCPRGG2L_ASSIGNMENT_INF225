@@ -40,7 +40,7 @@ public class Assignment_1 {
         {
             System.out.println("invalid student phone number");
         }
-	}
+    }
 }
 
 	
