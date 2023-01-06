@@ -9,7 +9,7 @@ public class Assignment_1_ShorterMethod {
 	public static void main(String[] args) {
 
 // Shorter Method
-		// Student Email
+	// Student Email
 	  Scanner scan = new Scanner(System.in);
 	  System.out.print("Enter student email: ");
 	  String studentEmail = scan.nextLine();
@@ -25,19 +25,19 @@ public class Assignment_1_ShorterMethod {
 	            System.out.println("invalid student email");
 	        }
 	     	
-	    // Student Phone Number
+	  // Student Phone Number
 	  System.out.print("Enter student phone number: ");
 	  String studentPhoneNum = scan.nextLine();
 	  
 	  boolean match1 = Pattern.matches("09\\d{9}", studentPhoneNum);
 
-	  		if (match1) 
-	  		{
-          System.out.println("valid student phone number");
-	  		} 
-	  		else 
-	  		{
-          System.out.println("invalid student phone number");
-	  		}
+	  	if (match1) 
+	  	{
+         	     System.out.println("valid student phone number");
+	  	} 
+	  	else 
+	  	{
+          	     System.out.println("invalid student phone number");
+	  	}
 	}
 }
