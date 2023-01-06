@@ -20,9 +20,12 @@ public class Assignment_1 {
 
         boolean match = matcher.matches();
 
-        if (match) {
+        if (match) 
+	{
             System.out.println("valid student email");
-        } else {
+        } 
+	else 
+	{
             System.out.println("invalid student email");
         }
         
@@ -35,9 +38,12 @@ public class Assignment_1 {
 
         boolean match1 = matcher1.matches();
 
-        if (match1) {
+        if (match1) 
+	{
             System.out.println("valid student phone number");
-        } else {
+        } 
+	else 
+	{
             System.out.println("invalid student phone number");
         }
              
