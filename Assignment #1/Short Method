@@ -17,14 +17,14 @@ public class Assignment_1 {
         // Student Email
         boolean match = Pattern.compile("\\w+@students.national-u.edu.ph").matcher(studentEmail).matches();
 
-        if (match) 
-        {
-            System.out.println("valid student email");
-        } 
-        else 
-        {
-            System.out.println("invalid student email");
-        }
+        	if (match) 
+        	{
+            	     System.out.println("valid student email");
+        	} 
+        	else 
+        	{
+            	     System.out.println("invalid student email");
+        	}
         
      // Student Phone Number
         System.out.print("Enter student phone number: ");
@@ -32,14 +32,14 @@ public class Assignment_1 {
         
         boolean match1 = Pattern.compile("09\\d{9}").matcher(studentPhoneNum).matches();
 
-        if (match1) 
-        {
-            System.out.println("valid student phone number");
-        } 
-        else 
-        {
-            System.out.println("invalid student phone number");
-        }
+        	if (match1) 
+        	{
+            	     System.out.println("valid student phone number");
+        	} 
+        	else 
+        	{
+            	     System.out.println("invalid student phone number");
+        	}
     }
 }
 
