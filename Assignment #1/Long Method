@@ -40,11 +40,11 @@ public class Assignment_1 {
 
         	if (match1) 
 		{
-           	       System.out.println("valid student phone number");
+           	     System.out.println("valid student phone number");
        		} 
 		else 
 		{
-        	       System.out.println("invalid student phone number");
+        	     System.out.println("invalid student phone number");
         	} 
       }
  }
