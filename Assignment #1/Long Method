@@ -14,7 +14,6 @@ public class Assignment_1 {
         System.out.print("Enter student email: ");
         String studentEmail = scan.nextLine();
 
-       
         Pattern pattern = Pattern.compile("\\w+@students.national-u.edu.ph");
         Matcher matcher = pattern.matcher(studentEmail);
 
