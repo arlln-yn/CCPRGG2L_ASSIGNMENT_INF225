@@ -74,7 +74,7 @@ public class exercise1 {
         boolean found = false;
 
         while (match.find()) {
-            // System.out.println("I found the text " + match.group());
+            System.out.println("I found the text " + match.group());
             found = true;
         }
         if (!found) {
