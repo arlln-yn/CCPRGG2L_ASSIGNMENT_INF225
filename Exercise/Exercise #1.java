@@ -68,7 +68,7 @@ public class exercise1 {
         String myfiles = "myfile.txt, thesis.xlsx, this is not a file, picture.jpg, selfie.png";
 
         // Provide regex pattern
-        pattern = Pattern.compile("([^\\s]+(\\.(?i)(jpe?g|png|xlsx|txt))$)");
+        pattern = Pattern.compile("\\w+\\.(txt|xlsx|jpg|png)");
         match = pattern.matcher(myfiles);
 
         boolean found = false;
@@ -114,7 +114,7 @@ public class exercise1 {
         // Make all phone numbers uniform by making them all start with +63
 
         // Provide the regex pattern
-        phonenumbers = phonenumbers.replaceAll("09", "+639");
+        phonenumbers = phonenumbers.replaceAll("0(?=\\d{11})", "+63");
 
         System.out.println(phonenumbers);
 
