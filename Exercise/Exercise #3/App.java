@@ -23,8 +23,6 @@ public class App {
         mage.intelligence = 10;
         mage.name = "Akasha";
 
-
-
         mage.sayMyName();
         mage.sayMyStrength();
         mage.sayMyAgility();
@@ -32,14 +30,12 @@ public class App {
    
         System.out.println();
 
-
         Character thief = new Character();
 
         thief.strength = 5;
         thief.agility = 10;
         thief.intelligence = 0;
         thief.name = "Gondar";
-
 
         thief.sayMyName();
         thief.sayMyStrength();
@@ -52,6 +48,9 @@ public class App {
         Character traveller = new Character();
 
             traveller.name = "Lumine";
+            traveller.strength = 20;
+            traveller.intelligence = 15;
+            traveller.agility = 25;
             traveller.Attack();
 
             System.out.println();
